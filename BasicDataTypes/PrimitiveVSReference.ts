@@ -1,10 +1,6 @@
 //PRIMITIVE:Number,boolean,String....
 //REFERENCE:Array,Object,Enums...
-let a = 12
-let b=a
-b+=12
-console.log(b)//25
-let c =[10,12,3321,1333]
-let d=c;
-d[2]=11999
-console.log(d)
+let a="String1"
+// a=0//ERROR in TypeScript!!but JS used to accept it!
+let cups=Math.random()*4
+console.log(cups)
