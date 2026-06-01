@@ -18,4 +18,8 @@ const u1 = {
     username: "abc",
     password: "837498dd"
 };
+const NewCoffee = (updates) => {
+    console.log("Updating Coffee with", updates);
+};
+NewCoffee({ price: 40 });
 //# sourceMappingURL=script.js.map
