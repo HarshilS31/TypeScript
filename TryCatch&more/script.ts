@@ -28,3 +28,15 @@ if (checkBook(bookObj)) {
     console.error("Invalid book data structure!");
 }
 
+
+const inputElement=document.getElementbyID("username") as HTMLInputElement
+//NOTE:type assertion !=type conversion!
+
+// let val:any;
+// val=[101,1333,1323]
+// val=0.111
+// val.toUpperCase()//no error will be shown rn,but error will be showwn in the O/P terminal!
+// let newVal:unknown;
+// newVal=[101,1333,1323]
+// newVal=0.111
+// newVal.toUpperCase()//error will be shown here as well as in the O/P terminal!

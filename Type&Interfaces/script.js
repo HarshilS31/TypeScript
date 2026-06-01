@@ -27,4 +27,6 @@ const Ordcf = (t) => {
     console.log(t);
 };
 Ordcf("Plain");
+const user1 = { username: "abc" };
+const user2 = { username: "def", age: 19 };
 //# sourceMappingURL=script.js.map

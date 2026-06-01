@@ -3,7 +3,7 @@
 //NOTE:TypeScript Code Never Runs:TS->Process->JS!
 
 //PROCESS :TS CODE->Lexer->Parser->Binder->Checker->Emmiter/Generator ->JS! 
-function greet(person:string):string {
+function greet(person:string):string {//we also defined the Function type and return type as well
     return `Hello ${person} how are you?`
 
 }

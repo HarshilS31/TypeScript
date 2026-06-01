@@ -5,6 +5,6 @@ let sum = '1';
 let apiReqStatus = 'pending'; //<-Production Level Code Example!
 let airLineSeat = "Non-WindowSeat";
 // airLineSeat="IDK"//Error Obv!
-airLineSeat = "windowSeat"; //we can only change according to the datatypes set during Initialization!
-const currentOrder;
+airLineSeat = "windowSeat";
 //# sourceMappingURL=Union.js.map
+

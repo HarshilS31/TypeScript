@@ -60,9 +60,31 @@ interface response { ok :true | false }
 class resp implements response{
     ok=true
 }
-type CoffeeType2 = "Plain" |"Mocha" |"Latte"
+type CoffeeType2 = "Plain" |"Mocha" |"Latte"//UNION
 const Ordcf=(t:CoffeeType2)=>{
     console.log(t)
 
 }
 Ordcf("Plain")
+
+type Ingredient1= {
+    flavour:String
+
+    
+}
+type Ingredient2= {
+    Milk:number
+}
+
+type Coffee3 = Ingredient1 & Ingredient2//TYPE MADE USING INTERSECTION OF 2 TYPES!
+type User ={
+    username:string,
+    age ?:number
+}// ? -> optional entry!
+const user1:User = {username:"abc"}
+const user2:User = {username:"def",age:19}
+type login = {
+    readonly username:string,
+    email:string;
+    password:string
+}//readonly entry which means once initailzed then cant be changed!
