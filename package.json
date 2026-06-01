@@ -1,0 +1,25 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "Learning TypeScript  after JavaScript and will Upload my TypeScript Learning Workfiles here!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshilS31/TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HarshilS31/TypeScript/issues"
+  },
+  "homepage": "https://github.com/HarshilS31/TypeScript#readme",
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "axios": "^1.16.1"
+  }
+}
